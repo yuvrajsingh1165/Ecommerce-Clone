@@ -1,16 +1,13 @@
 *{
     margin: 0;
-    /* koi extra margin nahi mile iseliye use kar rahe hai */
     font-family: Arial;
    border:border-box;
-    /* border-box=boder badha diya toh content area chhotha hona chahiye */
 }
 .navbar
 {
     height: 60px;
     background-color:  #0f1111;
     color: white;
-    /* sab ek line me aa jaye iseliye flex use kiye hai */
     display:flex;
     align-items: center;
     justify-content: space-evenly;
@@ -29,7 +26,6 @@
 .border{
     border:2px solid transparent
 }
-/* jab cursor jayega toh white box banega */
 .border:hover{
     border:1.5px solid white;
 }
@@ -37,7 +33,6 @@
 .add-first
 {
     color: #cccccc;
-    /* font size ko rem ke term me add karge ki jaise jaise humare website chhotha bara ho us according font adjust hojaye */
     font-size: 0.85rem;
     margin-left: 15px;
 }
@@ -49,7 +44,6 @@
 }
 .add-icon
 {
-    /* agar jis do line ko same line me lana chhathe hai aur wo same div me ho toh display flex kar dege */
     display: flex;
     align-items: center;
 }
@@ -93,7 +87,7 @@
 .nav-search:hover{
     border: 2px solid orange;
 }
-/* box 4  niche jo do use kiye hai wo dono box ke liye use hoge*/
+/* box 4 */
 spam{
     font-size: 0.7rem;
 }
@@ -136,7 +130,7 @@ spam{
     font-size: 0.9rem;
     font-weight:700 ;
  }
- /* hhero section */
+ /* hero section */
  .hero-section
  {
     background-image: url("hero_image.jpg");
@@ -167,7 +161,6 @@ spam{
 .shop-section
 {
     display: flex;
-    /* fle wrap ise liye set kar rahe ki hum ek line me 4 box hi chahte hai fir dusre line me 4 box ho issi ke liye wrap use kar rahe hai */
     flex-wrap:wrap ;
     justify-content: space-evenly;
     background-color: #e2e7e6;
@@ -176,7 +169,6 @@ spam{
  .box
  {
     height: 400px;
-    /* border: 2px solid black; */
     width: 23%; 
     padding: 20px 0px 15px;
     background-color: white;
@@ -230,7 +222,6 @@ spam{
  }
  ul a{
     display: block;
-    /* jab bhi container ko sinle row mw chahiye toh dispaly ko flex kargege*/
     font-size: 0.85;
     margin-top: 10px;
     color: #dddddd;
@@ -258,9 +249,6 @@ spam{
     height: 80px;
    font-size: 0.7rem;
     text-align: center;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
  }
  .pages
  {
