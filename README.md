@@ -1,0 +1,3 @@
+#DFD
+![DALL·E 2024-10-21 11 02 29 - A Data Flow Diagram (DFD) level 0 for an Amazon homepage project  Show a user entity connected to an Amazon Homepage process, with arrows indicating d](https://github.com/user-attachments/assets/b9f0f2ff-c981-4266-8d5f-f5e66b6f035c)
+This project is a custom implementation of the Amazon homepage, built using HTML, CSS, and some external libraries like Font Awesome. The primary goal was to recreate a user-friendly, responsive e-commerce interface that mimics the look and feel of Amazon’s website. I wanted to demonstrate my front-end development skills and explore how elements like navigation bars, product displays, and search functionalities are handled in real-world websites.
